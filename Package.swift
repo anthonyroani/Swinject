@@ -4,6 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "Swinject",
+    platforms: [.iOS(.v9)],
     products: [
         .library(name: "Swinject", targets: ["Swinject"]),
     ],
